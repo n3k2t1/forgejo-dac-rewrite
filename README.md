@@ -1,22 +1,9 @@
-```plantuml
-skinparam ranksep 20
-skinparam dpi 125
-skinparam packageTitleAlignment left
+# Kroki-rewrite
 
-rectangle "Main" {
-  (main.view)
-  (singleton)
-}
-rectangle "Base" {
-  (base.component)
-  (component)
-  (model)
-}
-rectangle "<b>main.ts</b>" as main_ts
+## 導入方法
 
-(component) ..> (base.component)
-main_ts ==> (main.view)
-(main.view) --> (component)
-(main.view) ...> (singleton)
-(singleton) ---> (model)
-```
+以下のパスにファイルを配置する。
+
+- $FORGEJO_CUSTOM/public/assets/kroki-rewrite/
+- $FORGEJO_CUSTOM/public/assets/kroki-rewrite/pako/
+- $FORGEJO_CUSTOM/template/custom/footer.tmpl
