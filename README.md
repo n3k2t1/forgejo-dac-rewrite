@@ -1,4 +1,4 @@
-# Kroki-rewrite
+# dac-rewrite
 
 ## 導入方法
 
@@ -6,4 +6,5 @@
 
 - $FORGEJO_CUSTOM/public/assets/kroki-rewrite/
 - $FORGEJO_CUSTOM/public/assets/kroki-rewrite/pako/
+- $FORGEJO_CUSTOM/template/custom/header.tmpl
 - $FORGEJO_CUSTOM/template/custom/footer.tmpl
